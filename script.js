@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 div.setAttribute('data-miniatura', pelicula.imagenPP); // Imagen principal
 
                 div.innerHTML = `<img src="${pelicula.imagen}" alt="${pelicula.titulo}" title="${pelicula.titulo}">`;
-                
+
                 // Evento de clic para redirigir al enlace de la película
                 div.addEventListener('click', () => {
                     window.location.href = pelicula.enlace; // Redirige al enlace de la película
