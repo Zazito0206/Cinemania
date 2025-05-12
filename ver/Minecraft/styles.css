@@ -69,8 +69,8 @@ body {
 
 .contenedor-reproductor iframe {
   width: 100%;
-  max-width: 1000px;
-  height: 500px;
+  height: 50vh; /* Ajusta la altura del reproductor */
+  max-height: 500px;
   border-radius: 10px;
   border: none;
 }
