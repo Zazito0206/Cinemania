@@ -1,0 +1,30 @@
+[
+  {
+      "titulo": "Una película de Minecraft",
+      "descripcion": "Henry, Natalie, Dawn y Garrett, cuatro inadaptados, son arrastrados a un misterioso portal hacia el extraño y cúbico mundo principal. Para volver a casa, tendrán que dominar este mundo con la ayuda de un artesano inesperado y experto llamado, Steve, mientras se embarcan en una búsqueda mágica.",
+      "imagen": "images/minecraft.avif",
+      "imagenPP": "https://gagadget.es/media/post_big/irig.jpg",
+      "enlace": "https://playerwish.com/e/ijtgq37khu0z"
+  },
+  {
+      "titulo": "Drop: Amenaza anónima",
+      "descripcion": "Violet, una madre viuda en su primera cita en años, llega a un restaurante de lujo y se siente aliviada al descubrir que su cita, Henry, es más encantador y guapo de lo que esperaba. Sin embargo su química comienza a deteriorarse cuando Violet empieza a ser molestada y aterrorizada por una serie de mensajes anónimos que llegan a su teléfono.",
+      "imagen": "images/Amenaza-anónima.avif",
+      "imagenPP": "https://dx35vtwkllhj9.cloudfront.net/universalstudios/drop-intl/images/regions/pe/header.jpg",
+      "enlace": "https://example.com/otra"
+  },
+  {
+      "titulo": "Until Dawn: Noche de terror",
+      "descripcion": "Un año después de que su hermana Melanie desapareciera misteriosamente, Clover y sus amigos se dirigen al valle remoto donde desapareció en busca de respuestas. Al explorar un centro de visitantes abandonado, se encuentran acosados ​​por un asesino enmascarado y asesinados horriblemente uno por uno... solo para despertar y encontrarse de nuevo al comienzo de la misma noche.",
+      "imagen": "images/Until-Dawn-Noche-de-terror.png",
+      "imagenPP": "https://gestor.artesiete.es/storage/d54024e88b08e9d6a2071f9ca2d304e0e27e0071.jpg",
+      "enlace": "https://playerwish.com/e/ijtgq37khu0z"
+  },
+  {
+      "titulo": "Presencia",
+      "descripcion": "Rebekah (Lucy Liu), su marido (Chris Sullivan) y sus dos hijos, Chloe y Tyler, comienzan a sentir una extraña presencia tras mudarse a una nueva casa. Estos sucesos los llevarán a cuestionarse la naturaleza de la misteriosa entidad. Desde la perspectiva del espectro observamos cómo la dinámica familiar se ve perturbada por un pasado que los acecha.",
+      "imagen": "images/Presencia.png",
+      "imagenPP": "https://www.multiplaza.com.py/storage/cine/pelicula/presencia-1742481400.jpg",
+      "enlace": "https://playerwish.com/e/ijtgq37khu0z"
+  }
+]

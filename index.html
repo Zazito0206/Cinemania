@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinemania</title>
+    <link rel="icon" href="https://imgur.com/fnAC6w3.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="contenedor">
+            <img src="https://imgur.com/yHcHF7l.png" alt="Logo de la página">
+            <nav>
+                <a href="https://cinemania-sv.vercel.app" class="activo">Inicio</a>
+                <a href="https://familymovies.neocities.org">Series</a>
+                <a href="#">Estrenos</a>
+                <a href="#">Mi lista</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section class="pelicula-principal">
+            <div class="contenedor">
+                <h3 class="titulo">Título aquí</h3>
+                <p class="descripcion">Descripción aquí</p>
+                <button class="boton">Ver ahora</button>
+            </div>
+        </section>
+
+        <!-- Carrusel de Películas -->
+        <section class="peliculas-recomendadas contenedor" id="peliculas-recomendadas">
+            <div class="contenedor-titulo-controles">
+                <h3>Películas Recomendadas</h3>
+                <div class="indicadores"></div>
+            </div>
+
+            <div class="contenedor-principal">
+                <!-- Flecha izquierda -->
+                <button class="flecha-izquierda" id="flecha-izquierda">
+    <i class="fas fa-chevron-left"></i>
+</button>
+
+                <!-- Contenedor del carrusel -->
+                <div class="contenedor-carousel">
+                    <div class="carousel">
+                        <!-- Aquí van los items de películas que se cargan con JS -->
+                    </div>
+                </div>
+
+                <!-- Flecha derecha -->
+               <button class="flecha-derecha" id="flecha-derecha">
+    <i class="fas fa-chevron-right"></i>
+</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
