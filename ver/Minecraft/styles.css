@@ -76,15 +76,14 @@ body {
 }
 
 /* Responsive */
-/* Reajustamos la separación entre la info y el reproductor en móviles */
 @media screen and (max-width: 1024px) {
   .detalle-pelicula {
     flex-direction: column;
-    gap: 20px; /* Reduce el espacio entre imagen y la descripción */
   }
 
-  .contenedor-reproductor {
-    margin-top: 20px; /* Añade un pequeño margen superior para separar ligeramente el reproductor */
+  .detalle-pelicula img,
+  .info {
+    width: 90%;
   }
 
   .info h1 {
@@ -105,10 +104,6 @@ body {
     padding: 15px;
   }
 
-  .detalle-pelicula {
-    gap: 10px; /* Reduce aún más la separación en pantallas muy pequeñas */
-  }
-
   .info h1 {
     font-size: 1.5rem;
   }
@@ -121,4 +116,3 @@ body {
     height: 300px;
   }
 }
-
