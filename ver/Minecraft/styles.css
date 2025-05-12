@@ -1,89 +1,12 @@
-:root {
-  --rojo: #E50914;
-  --fondo: #141414;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #000;
-  color: white;
-  font-family: 'Open Sans', Arial, sans-serif;
-  min-height: 100vh;
-}
-
-/* Toda la página envuelta en el borde rojo */
-.pagina-pelicula {
-  min-height: 100vh;
-  border: 3px solid var(--rojo);
-  padding: 30px;
-  background-color: rgba(0, 0, 0, 0.95);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-/* Sección principal con imagen y descripción */
-.detalle-pelicula {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  gap: 30px;
-}
-
-.detalle-pelicula img {
-  width: 45%;
-  max-width: 500px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-}
-
-.info {
-  width: 45%;
-  max-width: 600px;
-}
-
-.info h1 {
-  font-size: 2.5rem;
-  margin-bottom: 15px;
-  font-weight: 700;
-}
-
-.info p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
-
-/* Reproductor */
-.contenedor-reproductor {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.contenedor-reproductor iframe {
-  width: 100%;
-  height: 50vh; /* Ajusta la altura del reproductor */
-  max-height: 500px;
-  border-radius: 10px;
-  border: none;
-}
-
-/* Responsive */
+/* Reajustamos la separación entre la info y el reproductor en móviles */
 @media screen and (max-width: 1024px) {
   .detalle-pelicula {
     flex-direction: column;
+    gap: 20px; /* Reduce el espacio entre imagen y la descripción */
   }
 
-  .detalle-pelicula img,
-  .info {
-    width: 90%;
+  .contenedor-reproductor {
+    margin-top: 20px; /* Añade un pequeño margen superior para separar ligeramente el reproductor */
   }
 
   .info h1 {
@@ -104,6 +27,10 @@ body {
     padding: 15px;
   }
 
+  .detalle-pelicula {
+    gap: 10px; /* Reduce aún más la separación en pantallas muy pequeñas */
+  }
+
   .info h1 {
     font-size: 1.5rem;
   }
@@ -113,6 +40,6 @@ body {
   }
 
   .contenedor-reproductor iframe {
-    height: 400px;
+    height: 300px;
   }
 }
