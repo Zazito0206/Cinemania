@@ -27,6 +27,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 div.setAttribute('data-miniatura', pelicula.imagenPP); // Imagen principal
 
                 div.innerHTML = `<img src="${pelicula.imagen}" alt="${pelicula.titulo}" title="${pelicula.titulo}">`;
+
+                // Aquí agregamos el evento de clic para redirigir a la película
+                div.addEventListener('click', () => {
+                    window.location.href = `ver/${pelicula.enlace}`; // Redirige al subdirectorio con el enlace
+                });
+
                 fila.appendChild(div);
             });
 
@@ -98,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
         tituloPrincipal.textContent = peli.titulo;
         descripcionPrincipal.textContent = peli.descripcion;
         botonVerPrincipal.onclick = () => {
-            window.location.href = peli.enlace;
+            window.location.href = `ver/${peli.enlace}`;
         };
     }
 });
